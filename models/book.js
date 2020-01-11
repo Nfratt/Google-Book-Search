@@ -20,13 +20,7 @@ link:{
 image:{
     type:String,
 required:true
-},
-date:{
-    type:String,
-    required:true
 }
-
-
 });
-const Book=mongoose.model("Book",bookDB);
+const Book=mongoose.model("googlebooks",bookDB);
 module.export =Book;
