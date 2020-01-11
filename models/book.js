@@ -22,5 +22,5 @@ image:{
 required:true
 }
 });
-const Book=mongoose.model("googlebooks",bookDB);
+const Book=mongoose.model("Book",bookDB);
 module.export =Book;
